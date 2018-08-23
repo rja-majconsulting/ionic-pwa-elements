@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "build": "stencil build --docs",
+    "build-dev": "stencil build --dev --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "jest",
     "test.watch": "jest --watch"
